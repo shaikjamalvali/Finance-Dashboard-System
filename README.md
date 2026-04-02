@@ -24,9 +24,7 @@ The repository includes:
 
 ## Demo Video
 
-<video width="700" controls>
-  <source src="financial_DEMO.mp4" type="video/mp4">
-</video>
+https://drive.google.com/file/d/1gsuEocaYiWv44fGvZvu2G9KpsIIy4jzJ/view?usp=drive_link
 
 ## A quick tour of the project
 
