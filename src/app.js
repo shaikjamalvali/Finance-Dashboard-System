@@ -50,6 +50,15 @@ app.get("/health", (req, res) => {
   res.status(200).json({ status: "ok" });
 });
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Finance Dashboard Backend API",
+    status: "ok",
+    docs: "/api/docs",
+    health: "/health"
+  });
+});
+
 app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(buildSwaggerSpec()));
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
