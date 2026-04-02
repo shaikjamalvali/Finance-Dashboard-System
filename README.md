@@ -1,3 +1,6 @@
+
+
+
 # Finance Dashboard System
 
 This project is a full finance dashboard application with two parts that work together: an Express and MongoDB backend, and a React frontend built with TypeScript. It was shaped for the Zorvyn assignment brief, but the codebase is also organized like a small real-world product, with a clear API, role-based access control, analytics, and deployment support.
@@ -18,6 +21,12 @@ The repository includes:
 - Email: shaikjamalvali2004@gmail.com
 - Role: Backend Developer Intern
 - Portal: Zorvyn Assignment Portal
+
+## Demo Video
+
+<video width="700" controls>
+  <source src="financial_DEMO.mp4" type="video/mp4">
+</video>
 
 ## A quick tour of the project
 
